@@ -4,7 +4,7 @@ Writing a recursive function that queries the Reddit API and returns a list cont
 If no results are found for the given subreddit, the function returns None.
 """
 import requests
-
+#defining
 
 def recurse(subreddit, hot_list=[], after=None):
     """ function that queries the Reddit API and returns a list containing
